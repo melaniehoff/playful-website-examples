@@ -1,0 +1,38 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+  color: aqua;
+  font-family: 'Supermercado One', cursive;
+  background-color: coral;
+}
+
+#puppy {
+  display: none;
+}
+
+#welcome_img {
+  display: none;
+}
+
+button {
+  border-style: groove;
+   border-color: aqua;
+   border-width: medium;
+   margin: 1em;
+}
+
+img {
+  width: 65%;
+  border: 1em solid black;
+  border-radius: 50%;
+  margin: auto;
+}

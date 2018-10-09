@@ -1,0 +1,46 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  padding: 1em;
+  text-align: center;
+  background-color: black;
+  font-size: 4em;
+  font-family: 'Supermercado One', cursive;
+  color: limegreen;
+}
+
+.desktop_visible {
+  display: block;
+}
+
+.mobile_visible {
+  display: none;
+}
+
+
+@media screen and (max-width: 376px) {
+body,html{
+    background-color: aqua;
+    color: coral;
+    font-size: 1em;
+}
+
+body {
+    border: 3em solid coral;
+}
+
+.desktop_visible {
+  display: none;
+}
+
+.mobile_visible {
+  display: block;
+}
+
+}

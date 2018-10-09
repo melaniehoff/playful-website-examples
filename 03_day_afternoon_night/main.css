@@ -1,0 +1,19 @@
+
+body,html{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  padding: 1em;
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Supermercado One', cursive;
+  color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
