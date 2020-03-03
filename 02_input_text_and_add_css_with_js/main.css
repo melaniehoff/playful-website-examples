@@ -12,7 +12,7 @@ body {
   font-size: 2em;
   color: aqua;
   font-family: 'Supermercado One', cursive;
-  background-color: coral;
+  background-color: forestgreen;
 }
 
 #puppy {
@@ -32,7 +32,7 @@ button {
 
 img {
   width: 65%;
-  border: 1em solid black;
+  border: 1em solid lightyellow;
   border-radius: 50%;
   margin: auto;
 }
