@@ -1,17 +1,18 @@
 $( document ).ready(function() {
     console.log( "ready!" );
 
-    morning = "morning.gif";
-    afternoon = "afternoon.gif";
-    night = "night.gif";
+    var morning = "morning.gif";
+    var afternoon = "afternoon.gif";
+    var night = "night.gif";
 
 
     function checkHour() {
         var d = new Date();
-        var n = d.getHours();
+        // var n = d.getHours();
+        var n = 11;
 
         console.log(n)
-        if(n <= 11){
+      if(n <= 11){
           console.log("It's the morning!")
           $('body').css('background-image', 'url(' + morning + ')');
         }

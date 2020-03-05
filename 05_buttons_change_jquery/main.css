@@ -26,3 +26,9 @@ body {
 img {
   width: 250px;
 }
+
+
+p {
+  font-size: 3em;
+  margin-top: 3em;
+}

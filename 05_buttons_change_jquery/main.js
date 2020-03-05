@@ -6,5 +6,12 @@ $(document).ready(function() {
     });
   });
 
+  $("#text").click(function() {
+    $("p").html("I like to eat snails");
+  });
+
+  $("#show").click(function() {
+    $(this).attr("src", "2.png");
+  });
 
 });
