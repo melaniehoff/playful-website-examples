@@ -1,0 +1,28 @@
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  padding: 1em;
+  text-align: center;
+  font-size: 2em;
+  color: aqua;
+  font-family: 'Supermercado One', cursive;
+  background-color: darkgreen;
+}
+
+.image-buttons {
+  display: flex;
+  align-items: stretch;
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+}
+
+img {
+  width: 250px;
+}
