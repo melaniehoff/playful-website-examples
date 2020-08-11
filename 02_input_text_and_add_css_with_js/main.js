@@ -1,15 +1,9 @@
 $(document).ready(function() {
-    $("#welcome").mousemove(function(event){
-        var relX = event.pageX - $(this).offset().left;
-        var relY = event.pageY - $(this).offset().top;
-        var relBoxCoords = "(" + relX + "," + relY + ")";
-        console.log(relBoxCoords);
-    });
 
 
-
-
-
+document.getElementById ("button").addEventListener ("click", use_name);
+document.getElementById ("welcome_img").addEventListener ("click", revert);
+document.getElementById ("puppy").addEventListener ("click", revert);
 
 function use_name() {
   var name = document.getElementById("input_name").value;
