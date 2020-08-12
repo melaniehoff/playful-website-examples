@@ -8,8 +8,8 @@ $( document ).ready(function() {
 
     function checkHour() {
         var d = new Date();
-        // var n = d.getHours();
-        var n = 11;
+        var n = d.getHours();
+        // var n = 11;
 
         console.log(n)
       if(n <= 11){
